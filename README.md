@@ -4,6 +4,7 @@ This is a simple Library Management System implemented in Python using Object-Or
 
 ## Project Structure
 
+```
 library_management_system/
 ├── book.py
 ├── member.py
@@ -11,6 +12,7 @@ library_management_system/
 ├── library.py
 ├── main.py
 └── README.md
+```
 
 ## Classes
 
@@ -49,6 +51,21 @@ python main.py
 ```
 
 This will simulate the management of a library, including adding books, registering members, borrowing and returning books, and displaying available and borrowed books.
+
+##Output
+
+```
+Available books:
+Book(1984, George Orwell, 1234567890, Available)
+Book(To Kill a Mockingbird, Harper Lee, 2345678901, Available)
+
+Borrowed books:
+Book(1984, George Orwell, 1234567890, Checked Out)
+
+Available books after return:
+Book(1984, George Orwell, 1234567890, Available)
+Book(To Kill a Mockingbird, Harper Lee, 2345678901, Available)
+```
 
 ## Future Improvements
 
