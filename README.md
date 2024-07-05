@@ -52,7 +52,7 @@ python main.py
 
 This will simulate the management of a library, including adding books, registering members, borrowing and returning books, and displaying available and borrowed books.
 
-##Output
+## Output
 
 ```
 Available books:
